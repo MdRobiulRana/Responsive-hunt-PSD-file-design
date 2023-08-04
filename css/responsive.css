@@ -1,0 +1,383 @@
+@media(min-width: 1400px){
+    .hunt_price_box_middle{
+        width: 600px;
+        height: 250px;
+        background: #f1f1f1;
+        -webkit-transform: rotate(-10deg);
+            -ms-transform: rotate(-10deg);
+                transform: rotate(-10deg);
+        position: absolute;
+        top: 25%;
+        left: -20%;
+    }
+}
+@media(max-width: 1220px){
+    .hunt_about_content_top{
+        width: 100%;
+        padding: 15px 15px;
+        margin-bottom: 30px;
+    }
+    .hunt_about_content_left{
+        width: 100%;
+        padding: 15px 15px;
+    }
+    .hunt_about_content_bottom{
+        width: 100%;
+        padding: 15px 15px;
+        margin-bottom: 30px;
+    }
+    .hunt_about_content_right{
+        width: 100%;
+        padding: 15px 15px;
+    }
+    .hunt_content_img{
+        width: 280px;
+        height: 280px;
+        border: 1px solid #5c5c5c;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        border-radius: 50%;
+        text-align: center;
+        position: relative;
+        margin: auto;
+    }
+    .hunt_content_img img{
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+@media(max-width: 1200px){
+    .hunt_review_img img{
+        margin-bottom: 60px;
+        margin-right: 50px;
+    }
+    .port_img_5{
+        margin-top: -32px;
+    }
+}
+@media(max-width: 991px){
+
+    .hunt_menu{
+        position: absolute;
+        top: 0;
+        left: -250px;
+        background: #000;
+        width: 250px;
+        padding: 30px 30px 30px 0;
+        border-radius: 0 15px 15px 0;
+    }
+    .hunt_menu a:hover{
+        color: #fec600;
+    }
+    .hunt_menu a.active{
+        color: #fec600;
+        border-radius: 0;
+    }
+    .hunt_menu a{
+        display: block;
+        text-align: left;
+        padding: 15px 0px;
+    }
+    .hunt_menu_icon{
+        display: block;
+        text-align: right;
+    }
+    .hunt_menu_icon i{
+        color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .hunt_menu_icon i.fa-xmark{
+        display: none;
+    }
+    .hunt_content_img{
+        margin: 40px auto;
+    }
+    .hunt_about_content_top{
+        text-align: left;
+    }
+    .hunt_about_content_top::after{
+        display: none;
+    }
+    .hunt_about_content_left{
+        text-align: left;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .hunt_about_content_left::after{
+        display: none;
+    }
+    .hunt_about_content_right{
+        text-align: left;
+    }
+    .hunt_about_content_right::after{
+       display: none;
+    }
+    .hunt_about_content_bottom{
+        text-align: left;
+    }
+    .hunt_about_content_bottom::after{
+        display: none;
+    }
+
+    .full_about_section{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .full_hub_1{
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+    }
+    .full_hub_2{
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    .full_hub_3{
+        -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+                order: 3;
+    }
+    .full_middle{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .middle_hub_1{
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+    }
+    .middle_hub_2{
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    .middle_hub_3{
+        -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+                order: 3;
+    }
+    .hunt_about_content_top{
+        margin-bottom: 30px;
+    }
+    .hunt_about_content_left{
+        margin: 40px 0 30px;
+    }
+    .hunt_about_content_right{
+        margin-bottom: 30px;
+    }
+    .hunt_about_content_bottom{
+        margin-top: 0;
+    }
+    
+    .hunt_review_img img{
+        margin-bottom: 60px;
+        margin-right: 65px;
+    }
+    .hunt_overview_column{
+        width: 31%;
+        margin: 0 auto 15px;
+
+    }
+    .hunt_price_box_middle{
+        width: 200%;
+        top: 18%;
+        -webkit-transform: rotate(-8deg);
+            -ms-transform: rotate(-8deg);
+                transform: rotate(-8deg);
+    }
+    
+    .hunt_market_column{
+        width: 31%;
+        margin: auto;
+    }
+    
+    .footer_item_content_2{
+        border-right: none;
+    }
+    .hunt_port_img img{
+        width: 100%;
+        height: auto;
+    }
+    .hunt_port_img_overlay{
+        width: 100%;
+    }
+    
+    .port_img_5{
+        margin-top: -20px;
+    }
+}
+@media(max-width: 776px){
+    .hunt_review_img img{
+        margin-bottom: 60px;
+        margin-right: 0px;
+    }
+    .hunt_review .full_portfolio::after{
+        left: 30px;
+        background-color: #fff;
+    }
+    .hunt_review .full_portfolio_icon{
+        margin: 50px 15px;
+    }
+    .footer_item_content_1{
+        border-right: none;
+    }
+    .footer_item_content_3{
+        border-right: none;
+    }
+    .hunt_port_img{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 576px){
+    .hunt_content_img{
+        text-align: center;
+    }
+    .hunt_about_content_top{
+        text-align: center;
+    }
+    .hunt_about_content_left{
+        text-align: center;
+    }
+    .hunt_about_content_right{
+        text-align: center;
+    }
+    .hunt_about_content_bottom{
+        text-align: center;
+    }
+    
+    .full_portfolio::after{
+        left: 15px;
+    }
+    .full_portfolio_icon{
+        margin: 0;
+    }
+    .hunt_service_img{
+        margin: 0;
+        display: none;
+    }
+    .hunt_service_content{
+        width: 80%;
+        margin: auto;
+    }
+    .row_1 .hunt_service_top{
+        margin-top: 40px;
+    }
+    .hunt_service_top{
+        text-align: left;
+        margin-left: 45px;
+        margin-bottom: 10px;
+    }
+    .row_2 .hunt_service_content::after{
+        left: 0;
+        top: 45%;
+    }
+    .row_2_second_1{
+        -webkit-box-ordinal-group: 3 !important;
+            -ms-flex-order: 2 !important;
+                order: 2 !important;
+    }
+    .row_2_second_3{
+        -webkit-box-ordinal-group: 2 !important;
+            -ms-flex-order: 1 !important;
+                order: 1 !important;
+        width: 100%;
+    }
+    .hunt_service .d-flex{
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start !important;
+            -ms-flex-pack: start !important;
+                justify-content: flex-start !important;
+    }
+    .hunt_review_img{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .hunt_review_img img{
+       width: 100%;
+    }
+    
+    .hunt_review_img img:first-child,
+    .hunt_review_img img:last-child{
+        margin: 38px 13px;
+        width: 90px;
+    }
+    .hunt_review_img img:nth-child(2){
+        margin: 38px 13px;
+        width: 120px;
+    }
+    .hunt_review .full_portfolio::after{
+        display: none;
+    }
+    .hunt_review .full_portfolio_icon{
+        display: none;
+    }
+    .hunt_review_text::after{
+        top: -15px;
+        left: 50%;
+    }
+    
+    .hunt_overview_column{
+        width: 48%;
+        margin: 0 auto 15px;
+
+    }
+    .hunt_market_column{
+        width: 48%;
+        margin: auto;
+    }
+    .hunt_footer_logo a img{
+        width: 85%;
+    }
+    .hunt_menu_icon{
+        display: block;
+        text-align: right;
+        margin-right: 20px;
+    }
+    .port_img_5{
+        margin-top: 0px;
+    }
+}
+
+
+
